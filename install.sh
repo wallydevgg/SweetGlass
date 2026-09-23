@@ -18,6 +18,7 @@ cp -f "$SRC_DIR/SweetGlass.colors" "$XDG_DATA_HOME/color-schemes/"
 echo "-> Installing Konsole Color Scheme..."
 mkdir -p "$XDG_DATA_HOME/konsole"
 cp -f "$SRC_DIR/SweetGlass-Konsole.colorscheme" "$XDG_DATA_HOME/konsole/"
+cp -f "$SRC_DIR/SweetGlass-Konsole.colorscheme" "$XDG_DATA_HOME/konsole/SweetGlass.colorscheme"
 
 # 3. Plasma Desktop Theme
 echo "-> Installing Plasma Desktop Theme..."
