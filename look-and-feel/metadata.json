@@ -3,34 +3,23 @@
     "KPlugin": {
         "Authors": [
             {
-                "Email": "info@himdek.com",
-                "Name": "Himprakash Deka"
+                "Email": "",
+                "Name": "wallydev"
             }
         ],
         "Category": "Global Themes (Plasma 6)",
+        "Description": "SweetGlass dark neon glass Global Theme for Plasma 6",
+        "EnabledByDefault": true,
+        "Id": "SweetGlass",
+        "License": "GPL-2.0+",
+        "Name": "SweetGlass",
         "ServiceTypes": [
             "Plasma/LookAndFeel"
         ],
-        "EnabledByDefault": true,
-        "Name": "Utterly Sweet",
-        "Description": "A dark neon bluish Global Theme for Plasma with transparency and rounded edges for UI elements",
-        "Id": "Utterly-Sweet",
-        "Version": "3.3",
-        "License": "GPL-2.0+",
-        "Website": "www.himdek.com/Utterly-Sweet-Plasma"
+        "Version": "1.0",
+        "Website": "https://github.com/wallydevgg/SweetGlass"
     },
-    "X-KPackage-Dependencies": [
-        "kns://window-decorations.knsrc/api.kde-look.org/2132512",
-        "kns://colorschemes.knsrc/api.kde-look.org/1906471",
-        "kns://icons.knsrc/api.kde-look.org/2037657",
-        "kns://plasma-themes.knsrc/api.kde-look.org/1901768",
-        "kns://plasmoids.knsrc/api.kde-look.org/2115883",
-        "kns://plasmoids.knsrc/api.kde-look.org/2151931",
-        "kns://plasmoids.knsrc/api.kde-look.org/2129423",
-        "kns://plasmoids.knsrc/api.kde-look.org/2136505",
-        "kns://plasmoids.knsrc/api.kde-look.org/2132554",
-        "kns://sddmtheme.knsrc/api.kde-look.org/2340613",
-        "kns://wallpaper.knsrc/api.kde-look.org/1906464",
-        "kns://xcursor.knsrc/api.kde-look.org/1393084"
-    ]
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;",
+    "X-Plasma-APIVersion": "2",
+    "X-Plasma-MainScript": "default"
 }

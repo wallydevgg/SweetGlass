@@ -1,17 +1,14 @@
-[KSplash]
-Theme=Utterly-Sweet
-
 [kcminputrc][Mouse]
-cursorTheme=Sweet-cursors
+cursorTheme=volantes_cursors
 
 [kdeglobals][General]
-ColorScheme=UtterlySweet
+ColorScheme=SweetGlass
 
 [kdeglobals][Icons]
-Theme=BeautySolar
+Theme=candy-icons
 
 [kdeglobals][KDE]
-widgetStyle=kvantum-dark
+widgetStyle=Breeze
 
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
@@ -22,11 +19,11 @@ LayoutName=thumbnail_grid
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=XAI
 ButtonsOnRight=
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Utterly-Round-Dark
+library=org.kde.kwin.aurorae.v2
+theme=__aurorae__svg__SweetGlass
 
 [plasmarc][Theme]
-name=Utterly-Round
+name=SweetGlass
 
 [Wallpaper]
-Image=Utterly-Sweet
+Image=SweetGlass

@@ -1,23 +1,23 @@
 look-and-feel: look-and-feel/*
-	tar -cJf Utterly-Sweet.tar.xz look-and-feel/* --transform="s/look-and-feel\///"
+	tar -cJf SweetGlass.tar.xz look-and-feel/* --transform="s/look-and-feel\///"
 
-look-and-feel-solid: look-and-feel-solid/*
-	tar -cJf Utterly-Sweet-Solid.tar.xz look-and-feel-solid/* --transform="s/look-and-feel-solid\///"
+desktoptheme: desktoptheme/*
+	tar -cJf SweetGlass-Plasma-Theme.tar.xz desktoptheme/* --transform="s/desktoptheme/SweetGlass/"
 
-colors: UtterlySweet.colors
-	tar -czf Utterly-Sweet-Colors.tar.gz UtterlySweet.colors
+aurorae: aurorae/*
+	tar -cJf SweetGlass-Aurorae.tar.xz aurorae/* --transform="s/aurorae/SweetGlass/"
+
+colors: SweetGlass.colors
+	tar -czf SweetGlass-Colors.tar.gz SweetGlass.colors
 
 wallpaper: wallpaper/*
-	tar -cJf Utterly-Sweet-Wallpaper.tar.xz wallpaper/* --transform="s/wallpaper/Utterly-Sweet/"
+	tar -cJf SweetGlass-Wallpaper.tar.xz wallpaper/* --transform="s/wallpaper/SweetGlass/"
 
 kvantum: kvantum/*
-	tar -caf Utterly-Sweet-kvantum.zip kvantum/* --transform="s/kvantum/Utterly-Sweet/"
-
-kvantum-solid: kvantum-solid/*
-	tar -caf Utterly-Sweet-Solid-kvantum.zip kvantum-solid/* --transform="s/kvantum-solid/Utterly-Sweet-Solid/"
+	tar -caf SweetGlass-kvantum.zip kvantum/* --transform="s/kvantum/SweetGlass/"
 
 sddm: sddm/*
-	tar -cJf Utterly-Sweet-SDDM.tar.xz sddm/* --transform="s/sddm/Utterly-Sweet/"
+	tar -cJf SweetGlass-SDDM.tar.xz sddm/* --transform="s/sddm/SweetGlass/"
 
 clean:
-	rm *.zip & rm *.tar.*
+	rm -f *.zip *.tar.*

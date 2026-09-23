@@ -1,16 +1,16 @@
 [SddmGreeterTheme]
-Name=Utterly-Sweet-Plasma-6
-Description=Utterly-Sweet SDDM theme for Plasma 6
-Author=Himprakash Deka
+Name=SweetGlass
+Description=SweetGlass SDDM theme for Plasma 6
+Author=wallydev
 License=GPL-2.0+
 Type=sddm-theme
 Version=1.0
-Website=https://himdek.com/Utterly-Sweet-Plasma
+Website=https://github.com/wallydevgg/SweetGlass
 Screenshot=Preview.png
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Email=info@himdek.com
-Theme-Id=Utterly-Sweet
+Email=
+Theme-Id=SweetGlass
 Theme-API=2.0
 QtVersion=6

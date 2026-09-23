@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "KWin/Aurorae",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "wallydev"
+            }
+        ],
+        "Category": "Plasma 6 Window Decorations",
+        "Description": "SweetGlass Round Dark Translucent Window Decoration for Plasma 6",
+        "EnabledByDefault": true,
+        "Id": "SweetGlass",
+        "License": "GPL-2.0+",
+        "Name": "SweetGlass",
+        "ServiceTypes": [
+            "KWin/Aurorae"
+        ],
+        "Version": "1.0",
+        "X-KPackage-Dependencies": []
+    }
+}

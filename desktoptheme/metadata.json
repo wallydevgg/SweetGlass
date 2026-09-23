@@ -1,0 +1,23 @@
+{
+    "KPackageStructure": "Plasma/Theme",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "wallydev"
+            }
+        ],
+        "Category": "Plasma Theme",
+        "Description": "SweetGlass rounded theme for Plasma 6 with glass transparency and blur",
+        "EnabledByDefault": true,
+        "Id": "SweetGlass",
+        "License": "GPL-2.0+",
+        "Name": "SweetGlass",
+        "ServiceTypes": [
+            "Plasma/Theme"
+        ],
+        "Version": "1.0",
+        "X-KPackage-Dependencies": []
+    },
+    "X-Plasma-APIVersion": "2"
+}
