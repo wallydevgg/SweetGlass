@@ -46,6 +46,9 @@ if [ -d "$SRC_DIR/kvantum" ]; then
   mkdir -p "$XDG_CONFIG_HOME/Kvantum/SweetGlass"
   cp -f "$SRC_DIR/kvantum/SweetGlass.kvconfig" "$XDG_CONFIG_HOME/Kvantum/SweetGlass/" 2>/dev/null || true
   cp -f "$SRC_DIR/kvantum/SweetGlass.svg" "$XDG_CONFIG_HOME/Kvantum/SweetGlass/" 2>/dev/null || true
+  if [ ! -f "$XDG_CONFIG_HOME/Kvantum/kvantum.kvconfig" ]; then
+    printf "[General]\ntheme=SweetGlass\n" > "$XDG_CONFIG_HOME/Kvantum/kvantum.kvconfig"
+  fi
 fi
 
 echo ""
